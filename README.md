@@ -22,3 +22,6 @@
 
 ## BFS
 [200. Number of Islands (Medium)](./200%20Number%20of%20Islands/)
+
+## Binary Tree
+[144. Binary Tree Preorder Traversal (Easy)](./144.%20Binary%20Tree%20Preorder%20Traversal/)
