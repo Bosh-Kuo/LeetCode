@@ -10,7 +10,7 @@
 
 ## Stack
 [155. Min Stack (Easy)](./155%20Min%20Stack/)
-[232. Implement Queue using Stacks]()
+[232. Implement Queue using Stacks](./232%20Implement%20Queue%20using%20Stacks/)
 
 ## Queue
 [622. Design Circular Queue (Medium)](./622%20Design%20Circular%20Queue/)
