@@ -17,14 +17,13 @@ void traversal(struct TreeNode *root, int *result, int * size)
     if(root == NULL) 
         return;
     
-    result[(*size)] = root->val;
-    (*size) = (
-        *size) += 1;
     traversal(root->left, result, size);
+    result[(*size)] = root->val;
+    (*size) = (*size) += 1;
     traversal(root->right, result, size);
 }
 
-int* preorderTraversal(struct TreeNode* root, int* returnSize){
+int* inorderTraversal(struct TreeNode* root, int* returnSize){
     int * result = (int *)malloc(100*sizeof(int));
     *returnSize = 0;
     traversal(root, result, returnSize);

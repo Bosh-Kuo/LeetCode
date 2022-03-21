@@ -24,4 +24,10 @@
 [200. Number of Islands (Medium)](./200%20Number%20of%20Islands/)
 
 ## Binary Tree
+[94. Binary Tree Inorder Traversal (Easy)](./94.%20Binary%20Tree%20Inorder%20Traversal/)
+
+[102. Binary Tree Level Order Traversal (Medium)](./102.%20Binary%20Tree%20Level%20Order%20Traversal/)
+
+[145. Binary Tree Postorder Traversal (Easy)](./145.%20Binary%20Tree%20Postorder%20Traversal/)
+
 [144. Binary Tree Preorder Traversal (Easy)](./144.%20Binary%20Tree%20Preorder%20Traversal/)
