@@ -9,6 +9,7 @@
 [707. Design Linked List (Medium)](./707%20Design%20Linked%20List/) 
 
 ## Stack
+[20. Valid Parentheses (Easy)](./20.%20Valid%20Parentheses/)
 
 [150. Evaluate Reverse Polish Notation (Medium)](./150.%20Evaluate%20Reverse%20Polish%20Notation/)  
 
@@ -25,6 +26,8 @@
 
 ## Binary Tree
 [94. Binary Tree Inorder Traversal (Easy)](./94.%20Binary%20Tree%20Inorder%20Traversal/)
+
+[101. Symmetric Tree (Easy)](./101.%20Symmetric%20Tree/)
 
 [102. Binary Tree Level Order Traversal (Medium)](./102.%20Binary%20Tree%20Level%20Order%20Traversal/)
 
