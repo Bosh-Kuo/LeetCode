@@ -35,6 +35,8 @@
 
 [107. Binary Tree Level Order Traversal II (Medium)](./107.%20Binary%20Tree%20Level%20Order%20Traversal%20II/)
 
+[112. Path Sum (Easy)](./112.%20Path%20Sum/)
+
 [144. Binary Tree Preorder Traversal (Easy)](./144.%20Binary%20Tree%20Preorder%20Traversal/)
 
 [145. Binary Tree Postorder Traversal (Easy)](./145.%20Binary%20Tree%20Postorder%20Traversal/)
