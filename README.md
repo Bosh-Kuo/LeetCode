@@ -42,3 +42,5 @@
 [145. Binary Tree Postorder Traversal (Easy)](./145.%20Binary%20Tree%20Postorder%20Traversal/)
 
 [199. Binary Tree Right Side View (Medium)](./199.%20Binary%20Tree%20Right%20Side%20View/)
+
+[235. Lowest Common Ancestor of a Binary Search Tree (Easy)](./235.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree/)
