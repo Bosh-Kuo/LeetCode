@@ -6,7 +6,12 @@
 
 [24. Swap Nodes in Pairs (Medium)](./24%20Swap%20Nodes%20in%20Pairs/)
 
+[92. Reverse Linked List II (Medium)](./92.%20Reverse%20Linked%20List%20II/)
+
+[206. Reverse Linked List (Easy)](./206.%20Reverse%20Linked%20List/)
+
 [707. Design Linked List (Medium)](./707%20Design%20Linked%20List/) 
+
 
 ## Stack
 [20. Valid Parentheses (Easy)](./20.%20Valid%20Parentheses/)
@@ -46,3 +51,6 @@
 [235. Lowest Common Ancestor of a Binary Search Tree (Easy)](./235.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree/)
 
 [236. Lowest Common Ancestor of a Binary Tree (Medium)](./236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree/)
+
+## Heap
+[215. Kth Largest Element in an Array (Medium)](./215.%20Kth%20Largest%20Element%20in%20an%20Array/)
