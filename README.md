@@ -48,6 +48,8 @@
 
 [199. Binary Tree Right Side View (Medium)](./199.%20Binary%20Tree%20Right%20Side%20View/)
 
+[230. Kth Smallest Element in a BST (Medium)](./230.%20Kth%20Smallest%20Element%20in%20a%20BST/)
+
 [235. Lowest Common Ancestor of a Binary Search Tree (Easy)](./235.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree/)
 
 [236. Lowest Common Ancestor of a Binary Tree (Medium)](./236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree/)
