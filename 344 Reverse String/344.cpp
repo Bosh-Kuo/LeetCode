@@ -1,13 +1,14 @@
+/*
+time complexity: O(n)
+tags: Two Pointers, String
+note: 以左右兩端為起點一邊互換一邊向中間走，最多走 n/2 步可完成
+*/
+
 #include <iostream>
 #include <algorithm>
 #include <vector>
 using namespace std;
 
-/*
-time complexity: O(n)
-tag: two pointer
-note: 以左右兩端為起點一邊互換一邊向中間走，最多走 n/2 步可完成
-*/
 
 class Solution
 {
