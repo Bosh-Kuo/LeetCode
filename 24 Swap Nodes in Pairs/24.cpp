@@ -45,7 +45,6 @@ int main()
     ListNode node1 = ListNode(1, &node2);
     Solution sol;
     ListNode *head = sol.swapPairs(&node1);
-    // ListNode *head = &node1;
     ListNode *ptr = head;
     while(ptr!=nullptr)
     {
