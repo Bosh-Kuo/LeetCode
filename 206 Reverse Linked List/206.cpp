@@ -35,7 +35,7 @@ public:
             return front;
         // 取得下一個 pair 的 back
         ListNode *backNext = back->next;
-        // 娑 front->next 為 back 表示 front 為 link list 中的第一個 node（沒有當過 back）
+        // 若 front->next 為 back 表示 front 為 link list 中的第一個 node（沒有當過 back）
         if (front->next == back)
             front->next = nullptr;
         back->next = front;
