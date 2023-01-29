@@ -67,7 +67,8 @@
         "unordered_set": "cpp",
         "__tree": "cpp",
         "set": "cpp",
-        "numeric": "cpp"
+        "numeric": "cpp",
+        "__memory": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
