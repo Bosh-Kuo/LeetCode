@@ -1,7 +1,11 @@
 /*
 time complexity : O(n^2)
 tags: Array, Two Pointers, Sorting
-note: 固定一個 element 用 Two Pointers 來尋找另外兩個合適的 element，一個從小往大走，一個從大往小走，兩個 index 指到的 element 若跟前一步的重複則不採計
+note: 先將 Array 從小到大排序好，以 Loop 取 nums[i] 作為固定值，取 i 右側最近與最遠的 element 作為 Two Pointers 起點
+觀察 nums[i] + left + right:
+= 0 則加入答案組中
+> 0 : right pointer 向左走
+< 0 : left pointer 向右走
 */
 
 #include <iostream>
@@ -42,14 +46,14 @@ public:
                     // 兩個 index 指到的 element 若跟前一步的重複則不採計
                     if ((low_idx > i + 1 && nums[low_idx] == nums[low_idx - 1]) || (high_idx < nums.size() - 1 && nums[high_idx] == nums[high_idx + 1]))
                     {
-                        low_idx ++;
-                        high_idx --;
+                        low_idx++;
+                        high_idx--;
                     }
                     else
                     {
                         Ans.push_back({nums[i], nums[low_idx], nums[high_idx]});
-                        low_idx ++;
-                        high_idx --;
+                        low_idx++;
+                        high_idx--;
                     }
                 }
             }

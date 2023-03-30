@@ -1,8 +1,9 @@
 /*
 time complexity: O(n)
 tags: Tree, Depth-First Search, Binary Search Tree, Binary Tree
-note: 當前的節點對左子樹來說必是最大值，當前的節點對右子樹來說必是最小值。更新子樹的上限與下限，
-當有子樹小於下限或是大於上限。代表某節點的右樹出現小於該節點的數，或是某節點的左樹出現大於該節點的數
+note: 當前的節點對左子樹來說必是最大值，當前的節點對右子樹來說必是最小值。用 DFS 從 left node 開始檢查。
+node 的 left child 必須小於該 node，node 的 right child 必須大於該 node，
+若 node 的任一子樹回傳為 False ，便向 parent node 回傳 False
 */
 
 #include <iostream>
@@ -38,7 +39,7 @@ public:
         else
             return false;
     }
-    
+
     bool isValidBST(TreeNode *root)
     {
         return recursion(root, LONG_MIN, LONG_MAX);
