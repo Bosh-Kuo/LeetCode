@@ -1,7 +1,7 @@
 /*
 time complexity: O(n)
 tags: Stack, Tree, Depth-First Search
-note: pre-order traversal 為 DFS，在 recursion function 中先執行本身，在逐個執行 children node
+note: pre-order traversal 為 DFS，在 recursion function 中先執行本身，再逐個執行 children nodes
 */
 class Solution
 {
