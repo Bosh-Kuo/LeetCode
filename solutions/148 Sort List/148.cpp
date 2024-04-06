@@ -2,7 +2,6 @@
 time complexity: O(n*log(n))
 tags: Linked List, Two Pointers, Divide and Conquer, Sorting, Merge Sort
 note: 用 Divide and Conquer 令 left 為 sort 好的左半， right 為 sort 好的右半，再回傳 merge(left, right)
-
 */
 
 /**
