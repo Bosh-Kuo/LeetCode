@@ -3,7 +3,6 @@ time complexity: O(V+E)
 tags: Depth-First Search, Breadth-First Search, Graph, Topological Sort
 note: 建立 graph, degree => 找出 degree 為 0 的 course，加進 zeroDegree =>
 將 zeroDegree 裡的數加入 order，並更新該數的 target 的 degree，並檢查 degree 是否為 0 => 若為零則將 target 加入 zeroDegree
-
 */
 
 class Solution
