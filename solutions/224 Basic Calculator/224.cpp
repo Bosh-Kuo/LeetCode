@@ -8,9 +8,8 @@ note: 由於 "-" 同時代表"負"又代表"減法"運算符，為統一處理�
 3. 遇到 ")"，將 "()" 內的加總乘上 "(" 前的運算子(opStack.top)，再加上 "(" 前的加總(numStack.top)。
 4. 若最後一個字元不是 ")"，必須把最後一個計算的數值也累加進去
 */
-Ｆ
 
-    class Solution
+class Solution
 {
 public:
     int calculate(string s)
