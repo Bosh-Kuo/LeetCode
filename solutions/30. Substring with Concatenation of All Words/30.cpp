@@ -1,7 +1,7 @@
 /*
 time complexity: O(n)
 tags: Hash Table, String, Sliding Window
-note: 嫌見註解
+note: 詳見註解
 */
 
 class Solution
